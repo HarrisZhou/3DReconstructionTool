@@ -1,0 +1,468 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "src/reconstruction.exe"
+		},
+		{
+			"path" : "src/reconstruction.pdb"
+		}
+	],
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"_add_executable",
+			"add_executable",
+			"target_link_libraries"
+		],
+		"files" : 
+		[
+			"C:/dev/vcpkg/scripts/buildsystems/vcpkg.cmake",
+			"src/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 4,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 664,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 5,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc -openmp /MDd /Zi /Ob0 /Od /RTC1"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "/EHsc"
+				},
+				{
+					"fragment" : "-std:c++14"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 3,
+					"define" : "EIGEN_MAX_ALIGN_BYTES=0"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "EIGEN_MAX_STATIC_ALIGN_BYTES=0"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "GFLAGS_IS_A_DLL=1"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "GLOG_NO_ABBREVIATED_SEVERITIES"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "GOOGLE_GLOG_DLL_DECL=__declspec(dllimport)"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "GOOGLE_GLOG_DLL_DECL_FOR_UNITTESTS=__declspec(dllimport)"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "OPENEXR_DLL"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "VL_DISABLE_AVX"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "C:/Users/harris/source/repos/git_repos/AliceVisionInstall/include"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "C:/dev/vcpkg/installed/x64-windows/include"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "C:/dev/vcpkg/installed/x64-windows/share/eigen3/../../include/eigen3"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "C:/dev/vcpkg/installed/x64-windows/include/OpenEXR"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "C:/dev/vcpkg/installed/x64-windows/include/suitesparse"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"id" : "reconstruction::@145eef247bfb46b6828c",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc -openmp /MDd /Zi /Ob0 /Od /RTC1",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "/machine:x64 /debug /INCREMENTAL /subsystem:console",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "C:\\Users\\harris\\source\\repos\\git_repos\\AliceVisionInstall\\lib\\aliceVision_multiview.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "C:\\Users\\harris\\source\\repos\\git_repos\\AliceVisionInstall\\lib\\aliceVision_sfmDataIO.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "C:\\dev\\vcpkg\\installed\\x64-windows\\debug\\lib\\boost_program_options-vc140-mt-gd.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "C:\\dev\\vcpkg\\installed\\x64-windows\\debug\\lib\\boost_filesystem-vc140-mt-gd.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "C:\\dev\\vcpkg\\installed\\x64-windows\\debug\\lib\\boost_timer-vc140-mt-gd.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\Users\\harris\\source\\repos\\git_repos\\AliceVisionInstall\\lib\\aliceVision_robustEstimation.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\dev\\vcpkg\\installed\\x64-windows\\debug\\lib\\ceres-debug.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\dev\\vcpkg\\installed\\x64-windows\\debug\\lib\\glog.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "dbghelp.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\dev\\vcpkg\\installed\\x64-windows\\debug\\lib\\gflags_debug.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "shlwapi.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\dev\\vcpkg\\installed\\x64-windows\\debug\\lib\\libcxsparsed.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\dev\\vcpkg\\installed\\x64-windows\\debug\\lib\\libklud.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\dev\\vcpkg\\installed\\x64-windows\\debug\\lib\\libbtfd.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\dev\\vcpkg\\installed\\x64-windows\\debug\\lib\\libldld.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\dev\\vcpkg\\installed\\x64-windows\\debug\\lib\\libumfpackd.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\dev\\vcpkg\\installed\\x64-windows\\debug\\lib\\libspqrd.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\dev\\vcpkg\\installed\\x64-windows\\debug\\lib\\libcholmodd.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\dev\\vcpkg\\installed\\x64-windows\\debug\\lib\\libamdd.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\dev\\vcpkg\\installed\\x64-windows\\debug\\lib\\libcamdd.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\dev\\vcpkg\\installed\\x64-windows\\debug\\lib\\libccolamdd.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\dev\\vcpkg\\installed\\x64-windows\\debug\\lib\\libcolamdd.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\dev\\vcpkg\\installed\\x64-windows\\debug\\lib\\suitesparseconfigd.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\dev\\vcpkg\\installed\\x64-windows\\debug\\lib\\metis.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\dev\\vcpkg\\installed\\x64-windows\\lib\\libspqr.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\dev\\vcpkg\\installed\\x64-windows\\lib\\tbb.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\dev\\vcpkg\\installed\\x64-windows\\lib\\tbbmalloc.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\dev\\vcpkg\\installed\\x64-windows\\lib\\libcholmod.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\dev\\vcpkg\\installed\\x64-windows\\lib\\libccolamd.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\dev\\vcpkg\\installed\\x64-windows\\lib\\libcamd.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\dev\\vcpkg\\installed\\x64-windows\\lib\\libcolamd.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\dev\\vcpkg\\installed\\x64-windows\\lib\\libamd.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\dev\\vcpkg\\installed\\x64-windows\\debug\\lib\\lapack.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\dev\\vcpkg\\installed\\x64-windows\\debug\\lib\\openblas.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\dev\\vcpkg\\installed\\x64-windows\\lib\\suitesparseconfig.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\dev\\vcpkg\\installed\\x64-windows\\debug\\lib\\metis.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "C:\\Users\\harris\\source\\repos\\git_repos\\AliceVisionInstall\\lib\\aliceVision_sfmData.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "C:\\Users\\harris\\source\\repos\\git_repos\\AliceVisionInstall\\lib\\aliceVision_feature.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "C:\\Users\\harris\\source\\repos\\git_repos\\AliceVisionInstall\\lib\\aliceVision_gpu.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "C:\\Users\\harris\\source\\repos\\git_repos\\AliceVisionInstall\\lib\\vlsift.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "C:\\Users\\harris\\source\\repos\\git_repos\\AliceVisionInstall\\lib\\aliceVision_image.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\dev\\vcpkg\\installed\\x64-windows\\debug\\lib\\OpenImageIO.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\dev\\vcpkg\\installed\\x64-windows\\debug\\lib\\Imath-2_5_d.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\dev\\vcpkg\\installed\\x64-windows\\debug\\lib\\IlmThread-2_5_d.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\dev\\vcpkg\\installed\\x64-windows\\debug\\lib\\IexMath-2_5_d.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\dev\\vcpkg\\installed\\x64-windows\\debug\\lib\\Iex-2_5_d.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\dev\\vcpkg\\installed\\x64-windows\\debug\\lib\\Half-2_5_d.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\Users\\harris\\source\\repos\\git_repos\\AliceVisionInstall\\lib\\aliceVision_geometry.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "C:\\Users\\harris\\source\\repos\\git_repos\\AliceVisionInstall\\lib\\aliceVision_system.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "C:\\dev\\vcpkg\\installed\\x64-windows\\debug\\lib\\boost_program_options-vc140-mt-gd.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\dev\\vcpkg\\installed\\x64-windows\\debug\\lib\\boost_system-vc140-mt-gd.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\Users\\harris\\source\\repos\\git_repos\\AliceVisionInstall\\lib\\aliceVision_numeric.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\dev\\vcpkg\\installed\\x64-windows\\debug\\lib\\boost_log-vc140-mt-gd.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\dev\\vcpkg\\installed\\x64-windows\\debug\\lib\\boost_thread-vc140-mt-gd.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\dev\\vcpkg\\installed\\x64-windows\\debug\\lib\\boost_date_time-vc140-mt-gd.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\dev\\vcpkg\\installed\\x64-windows\\debug\\lib\\boost_regex-vc140-mt-gd.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\dev\\vcpkg\\installed\\x64-windows\\debug\\lib\\boost_atomic-vc140-mt-gd.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\dev\\vcpkg\\installed\\x64-windows\\debug\\lib\\boost_log_setup-vc140-mt-gd.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\Users\\harris\\source\\repos\\git_repos\\AliceVisionInstall\\lib\\lib_clp.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\Users\\harris\\source\\repos\\git_repos\\AliceVisionInstall\\lib\\lib_OsiClpSolver.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\Users\\harris\\source\\repos\\git_repos\\AliceVisionInstall\\lib\\lib_CoinUtils.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\Users\\harris\\source\\repos\\git_repos\\AliceVisionInstall\\lib\\lib_Osi.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\dev\\vcpkg\\installed\\x64-windows\\debug\\lib\\boost_container-vc140-mt-gd.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "C:\\dev\\vcpkg\\installed\\x64-windows\\debug\\lib\\boost_filesystem-vc140-mt-gd.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\dev\\vcpkg\\installed\\x64-windows\\debug\\lib\\boost_chrono-vc140-mt-gd.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "reconstruction",
+	"nameOnDisk" : "reconstruction.exe",
+	"paths" : 
+	{
+		"build" : "src",
+		"source" : "src"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "src/3DReconstructionKernel.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "src/3DReconstructionKernel.h",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "EXECUTABLE"
+}
